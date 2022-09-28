@@ -1,10 +1,121 @@
-section{
-border: 1px solidgreen;
+* {
+    margin: 0;
+    color: #FFF;
+}
+
+body {
+    background-color: #5f425a;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-#bio{
-height: 200px;
+
+header {
+    text-align: center;
+    margin: .25rem;
+}
+
+header img {
+    height: 7rem;
+}
 
 
 
+main{
+width: 960px;
+margin: 0 auto;
+}
+
+
+section {
+    border: 0;
+
+}
+
+#bio {
+ display: flex;
+
+}
+
+.bio-choose {
+    width: 100%;
+    margin: 0 .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bio-image {
+    height: 185px;
+}
+
+.nameDate {
+    display: flex;
+    justify-content: space-between;     
+    
+}
+
+.blueTextFormat {
+    font-size: 1.3rem;
+    color: #86c0e9
+}
+
+
+.pinkBox {
+    background-color: rgb(138, 113, 130);
+    padding: 1rem;
+}
+
+h4 {
+    margin-bottom: .75rem;
+
+}
+
+ul {
+    padding-left: 12px;
+
+
+}
+
+#tech {
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+
+figure {
+    text-align: center;
+}
+
+figure > img {
+height: 150px;
+max-width: 150px;
+
+
+}
+
+figcaption {
+text-align: center;
+background-color: rgba(0,0,0,0.5);
+max-width: 150px;
+position: relative;
+top: -20px;
+
+
+}
+
+
+#learn {
+    height: 180px;
+    
+}
+
+#learn .pinkBox{
+ margin-top: 15px;
+}
+
+
+footer {
+    text-align: center;
+    margin: 1em;
+    
 }
